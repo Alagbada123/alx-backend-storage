@@ -1,6 +1,2 @@
-// Insert an object into a mongodb collection
-
-school = {
-    name: "Holberton school"
-}
-db.school.insert(school);
+// Inserts a document in the school collection. // db.createCollection("school")
+db.school.insert({name: "Holberton school"});
